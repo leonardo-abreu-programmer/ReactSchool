@@ -7,14 +7,16 @@ export default function App() {
   return (
     <main className="App">
       <Navbar/>
-      <header className="App-header">
-        <h1>
-          Hello World!
-        </h1>
-        <p>
-          This is my React app.
-        </p>
-      </header>
+      <div className='p-4 pt-16'>
+        <header className="App-header space-y-4">
+          <h1>
+            Hello World!
+          </h1>
+          <p>
+            This is my React app.
+          </p>
+        </header>
+      </div>
     </main>
   );
 }
