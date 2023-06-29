@@ -12,11 +12,13 @@ const infoconstruct = {
   players: [
     {
       name: "Leo",
-      health: 100
+      health: 100,
+      winns: 0
     },
     {
       name: "Danilo",
-      health: 100
+      health: 100,
+      winns: 0
     }
   ],
 }
@@ -48,7 +50,6 @@ export default function Game() {
   }
 
   function finish() {
-    alert("Fim de jogo");
     setRounds(3);
     resetHelth();
   }
