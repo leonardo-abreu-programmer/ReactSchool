@@ -1,17 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 import Painel from './componentes/Aplicacao';
-ReactDOM.render(
-		<Painel />,
-		document.getElementById('aplicacao')
-	);
 
+const container = document.getElementById('aplicacao');
 
+const root = createRoot(container);
 
-
-
-
-
-
-
+root.render(<Painel />);
